@@ -36,6 +36,32 @@ alignment of modern meters in 18--19th century Czech, German and Russian. We
 release an implementation of the algorithm as a Python package with an open
 license.
 
+## Reproduction Instructions
+
+This repository contains a list of frozen versions which you can use to install 
+the exact module versions that were used to produce the preprint. This won't 
+keep it reproducible forever, but it's a start.
+
+1. Clone this repository
+    ```
+    cd /path/to/clone/into
+    git clone https://github.com/bnagy/metronome-paper
+    ```
+2. Create and activate a new Python virtual environment
+    ```
+    python -m venv /path/to/metronome-venv
+    source /path/to/metronome-venv/bin/activate
+    ```
+3. Install the requirements
+    ```
+    pip install -r /path/to/clone/into/metronome-paper/frozenvers.txt
+    ```
+4. Run the ipython notebooks in [the repro directory](/repro) while the venv is activated
+
+### TODO - Instructions Coming Soon
+
+To reproduce the actual figures, you will also need a working R environment, with a bunch of packages installed...
+
 ## Citation
 
 If you are also playing the Fun Academia Game, please cite to help us refill our Academia
