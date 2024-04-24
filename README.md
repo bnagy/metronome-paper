@@ -54,9 +54,9 @@ keep it reproducible forever, but it's a start.
     ```
 3. Install the requirements
     ```
-    pip install -r /path/to/clone/into/metronome-paper/frozenvers.txt
+    pip install -r /path/to/clone/into/metronome-paper/repro/frozenvers.txt
     ```
-4. Run the ipython notebooks in [the repro directory](/repro) while the venv is activated
+4. Run the ipython notebooks from [the repro directory](/repro) while the venv is activated
 
 ### TODO - Instructions Coming Soon
 
