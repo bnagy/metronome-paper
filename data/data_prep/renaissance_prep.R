@@ -137,7 +137,7 @@ ren_meter_all %>%
                 "Occitan_Ventadorn",
                 "Dutch_Vondel")) %>%
   select(label=file,regularity,metronome) %>% 
-  write_tsv(file="../reneissance_metronome.tsv")
+  write_tsv(file="../renaissance_metronome.tsv")
 
 
 ################ SESSION INFO #################
