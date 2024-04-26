@@ -58,9 +58,11 @@ keep it reproducible forever, but it's a start.
     ```
 4. Run the ipython notebooks from [the repro directory](/repro) while the venv is activated
 
-### TODO - Instructions Coming Soon
+### R Environment
 
-To reproduce the actual figures, you will also need a working R environment, with a bunch of packages installed...
+To reproduce the figures on your own machine you will also need a working R environment. Hopefully the data
+visualisation is not as dependent on specific versions as the analysis and clustering code, but just in case, the R
+`sessionInfo()` for each notebook is included at the end.
 
 ## Citation
 
