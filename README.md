@@ -38,9 +38,9 @@ license.
 
 ## Reproduction Instructions
 
-This repository contains a list of frozen versions which you can use to install 
-the exact module versions that were used to produce the preprint. This won't 
-keep it reproducible forever, but it's a start.
+This repository contains a list of frozen versions which you can use to install the exact module versions that were used
+to produce the various analyses and figure material for the preprint. This won't keep it reproducible forever, but it's
+a start.
 
 1. Clone this repository
     ```
