@@ -380,7 +380,7 @@
     \xmpdatawrite{Journalnumber}{1613-0073}
     \bool_if:NTF \g_ceur_hf_bool {
       \xmpdatawrite{Firstpage}{\firstpage}
-      \xmpdatawrite{Lastpage}{\lastpage}
+      \xmpdatawrite{Lastpage}{\pageref{LastPage}}
     }{ }
   }{
     \hypersetup{%
@@ -2258,12 +2258,8 @@
 \def\dst[#1]{\vrule height0pt depth#1 width 0pt}
 \def\xst[#1][#2]{\vrule height#1 depth #2 width\z@}
 
-\def\lastpage{13}
 
-\AtEndDocument{%
-  %   \clearpage
-  \immediate\write\@auxout{\string\csxdef{lastpage}{\thepage}}
-}
+\RequirePackage{lastpage}
 
 \ExplSyntaxOn
 
@@ -2283,7 +2279,7 @@
   % \ifoot[\__short_authors: :~ { \rmfamily \itshape Preprint}]{\__short_authors: :~ { \rmfamily \itshape Preprint}}
   % \ohead[]{\__short_title:}
   \cfoot[\thepage]{\thepage}
-  \ohead[]{\firstpage--\lastpage}
+  \ohead[]{\firstpage--\pageref{LastPage}}
   %\ihead[]{\__short_authors:{} ~ {\rmfamily (Preprint)} ~ \__short_title:}
   \ihead[]{{\rmfamily (Preprint)} ~ \__short_title:}
 
@@ -2331,7 +2327,7 @@
     % \rule{\textwidth}{.2pt}\\
     \sffamily\small
     \__first_footerline:
-    \hfill Page~ \thepage {} ~of~ \lastpage
+    \hfill Page~ \thepage {} ~of~ \pageref{LastPage}
   }
 }
 
@@ -2347,7 +2343,7 @@
     % \rule{\textwidth}{.2pt}\\
     \sffamily\small
     \__first_footerline:
-    \hfill Page~\thepage {}~of~ \lastpage
+    \hfill Page~\thepage {}~of~ \pageref{LastPage}
   }
 }
 
@@ -2899,8 +2895,8 @@
 %%
 
 % \RequirePackage[numbers,sort&compress]{natbib}
-\RequirePackage[numbers]{natbib}
-\AtBeginDocument{\bibsep=0pt}
+% \RequirePackage[numbers]{natbib}
+% \AtBeginDocument{\bibsep=0pt}
 
 \bibliographystyle{elsarticle-num-names}
 % \bibliographystyle{elsarticle-num}
