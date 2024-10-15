@@ -12,7 +12,7 @@ library(reticulate)
 ### assuming you have your conda env setup somewhere / or use your favorite environment 
 use_condaenv("bin/bin/")
 ### Metronome's package
-conda_install(pip = T,packages = "git+https://github.com/bnagy/metronome@main",envname = "bin/bin")
+conda_install(pip = T,packages = "git+https://github.com/XXXX",envname = "bin/bin")
 ## shorthand for running Metronome with Python
 source_python("do_metr.py") 
 
