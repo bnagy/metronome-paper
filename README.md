@@ -1,20 +1,6 @@
 # metronome-paper [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/) 
 
-LaTeX and figures for the preprint 'Metronome: tracing variation in poetic meters via local sequence alignment'.
-
-[(slightly outdated) poster summarizing the project](poster/metronome_poster.pdf "The Poster")
-
-The compiled [preprint](paper/metronome.pdf) is also included.
-
-Further information will be added if the paper is accepted
-for publication.
-
-*WARNING* This is a preprint, which has not been peer reviewed. Any final paper
-will almost certainly include changes, which can sometimes be quite substantial.
-The results listed are also subject to change. 
-
-LaTeX 'ceur' style modified from the CEUR Workshop [template](paper/ceurart.cls)
-(see copyrights etc)
+Anonymized reproduction materials for 'Metronome: tracing variation in poetic meters via local sequence alignment'.
 
 ## ABSTRACT
 
@@ -38,47 +24,7 @@ license.
 
 ## Reproduction Instructions
 
-This repository contains a list of frozen versions which you can use to install the exact module versions that were used
-to produce the various analyses and figure material for the preprint. This won't keep it reproducible forever, but it's
-a start.
-
-1. Clone this repository
-    ```
-    cd /path/to/clone/into
-    git clone https://github.com/bnagy/metronome-paper
-    ```
-2. Create and activate a new Python virtual environment
-    ```
-    python -m venv /path/to/metronome-venv
-    source /path/to/metronome-venv/bin/activate
-    ```
-3. Install the requirements
-    ```
-    pip install -r metronome-paper/repro/frozenvers.txt
-    ```
-4. Run the ipython notebooks from [the repro directory](/repro) while the venv is activated
-
-### R Environment
-
-To reproduce the figures on your own machine you will also need a working R environment. Hopefully the data
-visualisation is not as dependent on specific versions as the analysis and clustering code, but just in case, the R
-`sessionInfo()` for each notebook is included at the end.
-
-## Citation
-
-If you are also playing the Fun Academia Game, please cite to help us refill our Academia
-Hearts ❤️❤️❤️♡♡. 
-
-```
-@article{nagy_etal_metronome,
-    author          = "Ben Nagy and Artjoms Šeļa and Mirella {De Sisto} and Petr Plecháč",
-    title           = "(Preprint) {M}etronome: tracing variation in poetic meters via local sequence alignment",
-    year            = "2024",
-    publisher       = {github},
-    version         = {v1.0.0},
-    howpublished    = "\url{https://github.com/bnagy/metronome-paper}"
-}
-```
+As far as we know, the repository cannot be cloned in this form, but the notebooks should render
 
 ## LICENSE
 
