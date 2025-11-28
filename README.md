@@ -6,15 +6,12 @@ LaTeX and figures for the preprint 'Metronome: tracing variation in poetic meter
 
 The compiled [preprint](paper/metronome.pdf) is also included.
 
-Further information will be added if the paper is accepted
-for publication.
-
-*WARNING* This is a preprint, which has not been peer reviewed. Any final paper
-will almost certainly include changes, which can sometimes be quite substantial.
-The results listed are also subject to change. 
-
 LaTeX 'ceur' style modified from the CEUR Workshop [template](paper/ceurart.cls)
 (see copyrights etc)
+
+The Version Of Record has now been published (Open Access) with the journal 
+Computational Humanities Research, DOI: [10.1017/chr.2025.1](https://doi.org/10.1017/chr.2025.1),
+and should be read/cited in preference to the preprint.
 
 ## ABSTRACT
 
@@ -70,15 +67,18 @@ If you are also playing the Fun Academia Game, please cite to help us refill our
 Hearts ❤️❤️❤️♡♡. 
 
 ```
-@article{nagy_etal_metronome,
-    author          = "Ben Nagy and Artjoms Šeļa and Mirella {De Sisto} and Petr Plecháč",
-    title           = "(Preprint) {M}etronome: tracing variation in poetic meters via local sequence alignment",
-    year            = "2024",
-    publisher       = {github},
-    version         = {v1.0.0},
-    howpublished    = "\url{https://github.com/bnagy/metronome-paper}"
+@article{Nagy_Šeļa_De Sisto_Plecháč_2025, 
+    title={Metronome: tracing variation in poetic meters via local sequence alignment},
+    volume={1},
+    DOI={10.1017/chr.2025.1},
+    journal={Computational Humanities Research},
+    author={Nagy, Ben and Šeļa, Artjoms and De Sisto, Mirella and Plecháč, Petr},
+    year={2025},
+    pages={e1}
 }
+
 ```
+
 
 ## LICENSE
 
